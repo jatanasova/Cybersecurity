@@ -4,10 +4,11 @@
 #include <ctype.h>
 #define MAXN 1024
 
-char *vigenere_encrypt(char *plaintext, char *key)
+char* vigenere_encrypt(char* plaintext, char* .
+key)
 {
     int text_length = strlen(plaintext);
-    int key_length = strken(key);
+    int key_length = strlen(key);
     char* cipher = (char*)malloc(sizeof(char) * (text_length + 1));
     memset(cipher, '\0', sizeof(char *) * (text_length + 1));
 
