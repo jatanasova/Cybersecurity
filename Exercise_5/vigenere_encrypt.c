@@ -10,7 +10,7 @@ key)
     int text_length = strlen(plaintext);
     int key_length = strlen(key);
     char* cipher = (char*)malloc(sizeof(char) * (text_length + 1));
-    memset(cipher, '\0', sizeof(char *) * (text_length + 1));
+    memset(cipher, '\0', sizeof(char) * (text_length + 1));
 
     for (int i = 0; i < text_length; i++)
     {
